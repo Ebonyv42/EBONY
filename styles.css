@@ -1,57 +1,98 @@
 body {
-  background-color: #ffd9b3;
+    background-color: #ffd9b3;
 }
+
 .logo {
-  width: 300px;
-  height: 120px;
-  position: fixed;
-  margin: 0px;
-  padding: 5px;
-  background-color: #ff6666;
+    width: 300px;
+    height: 120px;
+    margin: 0px;
+    padding: 5px;
+    background-color: #ff6666;
 }
 
 .content {
-  position: relative;
-  font-family: 'Teko', sans-serif;
-  color: #ffff66;
-  margin: 0;
-  padding: 0;
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    color: #ffff66;
+    margin: 0px;
+    padding: 0;
 }
 
 .logoTxt {
-  font-size: 150px;
-  margin-top: -35px;
-  margin-left: 0px;
-}
-ul{
-  list-style-type: none;
-  display:block;
-  margin:70px;
-  padding:0px;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 30px;
-  background-color:#ffd9b3;
-  width: 240px;
-
+    font-size: 140px;
+    margin-top: -25px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    height: 130px;
 }
 
-ul li{
-  padding:10px 3px 10px 3px;
-  display:block;
-  border-radius:10px;
+ul {
+    list-style-type: none;
+    display: block;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: -15px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    background-color: #ffd9b3;
+    width: 500px;
+    height: 540px;
+    background-image: url(ebony.jpg);
+    position: absolute;
 }
+
+ul li {
+    padding: 10px 3px 10px 3px;
+    display: block;
+    border-radius: 10px;
+}
+
 ul li a {
-    display:block;
+    display: block;
     width: 100px;
     text-decoration: none;
 }
-a
-{
-  color: #ffffff;
-  font-family: 'Fjalla One', sans-serif;
+
+a {
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
 }
+
+
 /*change link color when mouse hovers over*/
-li a:hover{
-  background-color:#ff6666;
-  color:#ffff66;
+
+li a:hover {
+    background-color: #ff6666;
+    color: #ffff66;
+}
+
+
+/*image may be used later
+ .leftCol{
+   float:left;
+   margin-top: -240px;
+   margin-bottom: 10px;
+
+ }*/
+
+.description {
+    float: right;
+    margin-right: 100px;
+    margin-top: 0px;
+
+
+}
+
+p {
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+    margin-top: 0px;
+    color: #ffff66;
+}
+
+p2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 80px;
+  color: #ffff66;
 }
